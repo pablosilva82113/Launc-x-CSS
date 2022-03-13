@@ -1,0 +1,724 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+nav {
+    background: white;
+    height: 90px;
+    width: 100%;
+}
+
+.enlace {
+    position: absolute;
+    padding: 20px 50px;
+}
+
+
+
+nav ul {
+    float: right;
+    margin-right: 10px;
+    
+}
+
+nav ul li {
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color:black;
+    font-size: 18px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
+}
+
+li a.active,
+li a:hover {
+    background: #4327e0;
+    transition: .5s;
+    color: #fff;
+}
+
+.checkbtn {
+    font-size: 30px;
+    color: #fff;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+
+#check {
+    display: none;
+}
+/* estilos izquierda y derecha para la imagen y el primer texto */
+.derecha{
+  background: url(/img/imagenDer.jpg);
+  background-size: cover; 
+  width: 50%;
+  height: 100vh;
+  float: right;
+  background-position: center;
+    
+
+}
+.izquierda{
+    
+    width: 50%;
+    height: 100vh;
+    float : left;
+    top: 280px;
+}
+#dividir-pantalla{
+    display: block;
+}
+.star{
+    margin-left:380px;
+    width:30px;  
+    margin-top: -25px;
+}
+.tex-star{
+    margin-left:410px;
+    font-size: 16px;
+    margin-top: -30px;
+    color: rgb(78, 75, 75);
+}
+.escudo{
+    background: gold;
+    margin-left:180px;
+    width:30px;
+}
+.protection{
+    margin-left:220px;
+    margin-top: -30px;
+    font-size: 16px;
+    color: rgb(94, 92, 92);
+}
+.tiempo{
+    margin-left:180px;
+    width:30px;
+}
+.text-tiem{
+    margin-left:220px;
+    margin-top: -35px;
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+    color: #063969;
+}
+/* caja flotante 1 */
+.caja1{
+    width: 800px;
+    height: 120px;
+    background:white;
+    position:absolute;
+    margin-top:570px;
+    margin-left: 175px;
+    margin-right: 300px;
+    filter:alpha(opacity=70);
+
+-moz-opacity:.70;opacity:.70;
+border-radius: 5%;
+    
+}
+
+.location{
+    width:33px;
+    margin-left: 30px;
+}
+.time{
+    width:30px;
+    margin-left: 150px;
+    margin-top: -70px;
+}
+.vaccine{
+    width:31px;
+    margin-left: 140px;
+}
+.btn-primary{
+    background: #4327e0;
+    color:white;
+}
+/* estilo para los textos de los icons */
+.text-location{
+    margin-left: 75px;
+    margin-top: -30px;
+}
+
+.desc-location{
+    margin-left: 75px;
+    margin-top: 10px;
+    
+}
+/* estilos segunco icono */
+.text-time{
+    margin-left: 253px;
+    margin-top: -53px;
+}
+
+.desc-time{
+    margin-top: 10px;
+    margin-left: 250px;
+}
+/* estilos tercer icono */
+.text-vaccine{
+    margin-left: 430px;
+    margin-top:-52px;
+}
+
+.desc-vaccine{
+    margin-left: 440px;
+    margin-top: 10px;
+}
+
+.btn-submit{
+    background-color:#4327e0;
+    color:#fff;
+    margin-left:650px;
+    width:90px;
+    height: 50px;
+}
+
+  .texto_p{
+      font-size:30px;
+      color: #2250e9;
+      margin-left:40px;
+  }
+
+ .text1{
+    font-size:70px;
+     margin-top:70px;
+     text-align:center;
+     color: #063969;
+ }
+ .text2{
+    font-size:70px;
+    margin-left: 50px;
+    text-align:center;
+    color: #063969;
+}
+.text-sec{
+    text-align:justify ;
+    margin-left:215px;
+    color: rgb(94, 92, 92);
+    font-size:18px;
+}
+.info-class{
+    margin-top:90px;
+    margin-left: 120px;
+    color: rgb(37, 57, 114);
+    font-size: 35px;
+}
+
+.tex-info{
+  color: rgb(88, 84, 84);
+  margin-left: 120px;
+  font-size: 15px;
+  font-family:Arial, Helvetica, sans-serif
+}
+/* cajas flotantes  */
+
+.cajas{
+    display: block;
+    
+}
+.cajanegra{
+    width: 200px;
+    height: 250px;
+    position:relative;
+
+    margin-left: 120px;
+    margin-right: 300px;
+ background-color:white;
+ border-radius: 5%;
+
+}
+
+.minimiza{
+    height: 50px;
+    margin-top:10px;
+    margin-left:15px ;
+}
+.minimize{
+    text-align: justify;
+    margin-left: 10px;
+}
+.text-minimize{
+text-align: justify ;
+margin-left: 10px
+}
+.cajaazul{
+    width: 220px;
+    height: 250px;
+    position:relative;
+    margin-top:-250px;
+    margin-left: 400px;
+    margin-right: 200px;
+    background-color:white;
+    border-radius: 5%;
+
+}
+
+.forming{
+    height: 50px;
+    margin-top:10px;
+    margin-left:15px ; 
+}
+.forming-title{
+    text-align: justify;
+    margin-left: 10px;
+}
+.text-forming{
+text-align: justify ;
+margin-left: 10px
+}
+/* caja 3 */
+.cajaverde{
+    width: 220px;
+    height: 250px;
+    position:relative;
+    margin-top:-245px;
+    margin-left: 700px;
+    margin-right: 200px;
+background-color:white;
+border-radius: 5%;
+}
+
+.protecting{
+    height: 50px;
+    margin-top:10px;
+    margin-left:15px ; 
+}
+.forming-protecting{
+    text-align: justify;
+    margin-left: 10px;
+}
+.text-protecting{
+text-align: justify ;
+margin-left: 10px
+}
+
+/* caja 4 */
+.cajaroja{
+    width: 220px;
+    height: 250px;
+    position:relative;
+    margin-top: -250px;
+    margin-left: 1000px;
+    margin-right: 200px;
+    background-color:white;
+    border-radius: 5%;
+
+}
+
+.creating{
+    height: 50px;
+    margin-top:10px;
+    margin-left:15px ; 
+}
+.forming-creating{
+    text-align: justify;
+    margin-left: 10px;
+}
+.text-creating{
+text-align: justify ;
+margin-left: 10px
+}
+/* tercera seccion  */
+
+/* estilos izquierda y derecha para la imagen y el primer texto */
+.derecha2{
+
+    width: 50%;
+    height: 100vh;
+    float : right;
+    top: 280px; 
+  
+  }
+  .izquierda2{
+            background: url(/img/imgIzq.jpg);
+      background-size: cover; 
+      width: 50%;
+      height: 100vh;
+      float: left;
+      background-position: center;
+  }
+  #dividir-pantalla{
+      display: block;
+  }
+
+  .text1_5{
+    font-size:50px;
+     margin-top:70px;
+     text-align:center;
+     color: #063969;
+ }
+.text-sec1{
+    text-align:justify ;
+    margin-left:80px;
+    color: rgb(112, 110, 110);
+    font-size:18px;
+}
+
+/* cajas flotantes 2 */
+
+
+.cajas2{
+    display: block;
+    
+}
+.cajanegra2{
+    width: 440px;
+    height: 80px;
+    position:absolute;
+
+    margin-left: 850px;
+    margin-top: 280px;
+ 
+ border-radius: 5%;
+}
+
+#header {
+    margin:auto;
+    width:500px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+ul, ol {
+    list-style:none;
+}
+
+.nav > li {
+    margin-top: -50px;
+    float:right;
+}
+
+.nav li a {
+    background-color:#4327e0;;
+    color:#fff;
+    text-decoration:none;
+    padding:10px 12px;
+    display:block;
+}
+
+.nav li a:hover {
+    background-color:#434343;
+}
+
+.nav li ul {
+    display:none;
+    position:absolute;
+    min-width:140px;
+}
+
+.nav li:hover > ul {
+    display:block;
+}
+
+.nav li ul li {
+    position:relative;
+}
+
+.nav li ul li ul {
+    right:-140px;
+    top:0px;
+}
+.avoidIm{
+    height: 50px;
+    margin-top:10px;
+    margin-left:15px ;
+}
+.avoid{
+    text-align: justify;
+    margin-left: 80px;
+    margin-top:-60px;
+}
+
+.cajanegra3{
+    width: 440px;
+    height: 80px;
+    position:absolute;
+
+    margin-left: 850px;
+    margin-top: 380px;
+
+ border-radius: 5%;
+}
+.avoidStr{
+    height: 50px;
+    margin-top:10px;
+    margin-left:15px ;
+}
+.avoidSt{
+    text-align: justify;
+    margin-left: 80px;
+    margin-top:-60px;
+}
+
+/* caja 3 */
+
+.cajanegra4{
+    width: 440px;
+    height: 80px;
+    position:absolute;
+
+    margin-left: 850px;
+    margin-top: 480px;
+ 
+ border-radius: 5%;
+}
+.avoideat{
+    height: 50px;
+    margin-top:10px;
+    margin-left:15px ;
+}
+.avoideaT{
+    text-align: justify;
+    margin-left: 80px;
+    margin-top:-60px;
+}
+
+/* caja 4 */
+
+.cajanegra5{
+    width: 440px;
+    height: 80px;
+    position:absolute;
+
+    margin-left: 850px;
+    margin-top: 580px;
+
+ border-radius: 5%;
+}
+.avoideaget{
+    height: 50px;
+    margin-top:10px;
+    margin-left:15px ;
+}
+.avoideaGet{
+    text-align: justify;
+    margin-left: 80px;
+    margin-top:-60px;
+}
+
+/* caja 5 */
+
+.cajanegra6{
+    width: 440px;
+    height: 80px;
+    position:absolute;
+
+    margin-left: 850px;
+    margin-top: 680px;
+
+ border-radius: 5%;
+}
+.avoideaEx{
+    height: 50px;
+    margin-top:10px;
+    margin-left:15px ;
+}
+.avoideaex{
+    text-align: justify;
+    margin-left: 80px;
+    margin-top:-60px;
+}
+
+
+/* estilos izquierda y derecha para la imagen y el primer texto */
+.derecha3{
+
+  
+    background: url(/img/ultima.jpg);
+    background-size: cover; 
+    width: 50%;
+    height: 100vh;
+    float: right;
+    background-position: center;
+  
+  }
+  .izquierda3{
+    width: 50%;
+    height: 100vh;
+    float : left;
+    top: 280px;
+  }
+  #dividir-pantalla{
+      display: block;
+  }
+
+  .text4{
+    font-size:50px;
+     margin-top:70px;
+     text-align:center;
+     color: #063969;
+ }
+.text-sec2{
+    text-align:justify ;
+    margin-left:170px;
+    color: rgb(112, 110, 110);
+    font-size:18px;
+}
+
+/* cajas ultimas seccion */
+.caja-ultimas{
+    display: block;
+}
+.caja12{
+    width: 200px;
+    height: 190px;
+    position:absolute;
+    margin-top:250px;
+    margin-left: 100px;
+    margin-right: 300px;
+ background-color:white;
+ border-radius: 5%;
+
+}
+
+.call{
+    height: 50px;
+    margin-top:-100px;
+    margin-top:10px;
+    margin-left:15px ;
+}
+.call-p{
+    text-align: justify;
+    margin-left: 80px;
+    margin-top: -60px;
+}
+.text-call{
+text-align: justify ;
+margin-left: 70px
+}
+.btn-call{
+    width: 90px;
+    height: 60px;
+    background: #4327e0;
+    color:white;
+    border-radius: 10%;
+    margin-left: 60px;
+}
+
+
+/* caja 2 ultimas */
+
+.caja13{
+    width: 200px;
+    height: 190px;
+    position:absolute;
+    margin-top:250px;
+    margin-left: 450px;
+    margin-right: 300px;
+ background-color:white;
+ border-radius: 5%;
+
+}
+
+.chat{
+    height: 50px;
+    margin-top:-100px;
+    margin-top:10px;
+    margin-left:15px ;
+}
+.chat-p{
+    text-align: justify;
+    margin-left: 80px;
+    margin-top: -60px;
+}
+.text-chat{
+text-align: justify ;
+margin-left: 70px
+}
+.btn-chat{
+    width: 90px;
+    height: 60px;
+    background: #4327e0;
+    color:white;
+    border-radius: 10%;
+    margin-left: 60px;
+}
+
+
+/* caja 3 ultimas */
+
+.caja14{
+    width: 200px;
+    height: 190px;
+    position:absolute;
+    margin-top:450px;
+    margin-left: 100px;
+    margin-right: 300px;
+ background-color:white;
+ border-radius: 5%;
+
+}
+
+.video{
+    height: 50px;
+    margin-top:-300px;
+    margin-top:10px;
+    margin-left:15px ;
+}
+.video-p{
+    text-align: justify;
+    margin-left: 80px;
+    margin-top: -60px;
+}
+.text-video{
+text-align: justify ;
+margin-left: 70px
+}
+.btn-video{
+    width: 90px;
+    height: 60px;
+    background: #4327e0;
+    color:white;
+    border-radius: 10%;
+    margin-left: 60px;
+}
+
+/* caja 3 ultimas */
+
+.caja15{
+    width: 200px;
+    height: 190px;
+    position:absolute;
+    margin-top:450px;
+    margin-left: 450px;
+    margin-right: 300px;
+ background-color:white;
+ border-radius: 5%;
+
+}
+
+.message{
+    height: 50px;
+    margin-top:-300px;
+    margin-top:10px;
+    margin-left:15px ;
+}
+.message-p{
+    text-align: justify;
+    margin-left: 80px;
+    margin-top: -60px;
+}
+.text-message{
+text-align: justify ;
+margin-left: 70px
+}
+.btn-message{
+    width: 90px;
+    height: 60px;
+    background: #4327e0;
+    color:white;
+    border-radius: 10%;
+    margin-left: 60px;
+}
